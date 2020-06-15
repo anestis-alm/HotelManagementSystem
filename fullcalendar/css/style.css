@@ -1,0 +1,133 @@
+html,
+body {
+  width:99%;
+  height: 100%;
+  font-size: 100%;
+  line-height: 2;
+  font-family:  purisa, 'comic sans', cursive;
+  background: #28283b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#28283b), to(#0f0f17));
+  background-image: linear-gradient(#28283b 0%, #0f0f17 100%);
+  color: #444;
+  margin-left:0.5%;
+  margin-right:0.5%;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+      
+    
+
+    .vis-timeline {
+      border: 2px solid purple;
+      font-family:  purisa, 'comic sans', cursive;
+      font-size: 12pt;
+      background: white;
+    }
+
+    .vis-item {
+      border-color: #F991A3;
+      background-color: pink;
+      font-size: 15pt;
+      color: purple;
+      box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+    }
+
+    .vis-item,
+    .vis-item.vis-line {
+      border-width: 3px;
+    }
+
+    .vis-item.vis-dot {
+      border-width: 10px;
+      border-radius: 10px;
+    }
+
+    .vis-item.vis-selected {
+      border-color: green;
+      background-color: lightgreen;
+    }
+
+    .vis-time-axis .vis-text {
+      color: purple;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .vis-time-axis .vis-text.vis-major {
+      font-weight: bold;
+    }
+
+    .vis-time-axis .vis-grid.vis-minor {
+      border-width: 2px;
+      border-color: pink;
+    }
+
+    .vis-time-axis .vis-grid.vis-major {
+      border-width: 2px;
+      border-color: #F991A3;
+    }
+	
+#moveLeft {
+  margin-bottom: 20px;
+}
+#moveLeft:before {
+  padding-right: 4px;
+}
+#moveRight {
+  margin-bottom: 20px;
+}
+#moveRight:after {
+  padding-left: 4px;
+}
+#moveTo {
+  float: right;
+  margin-bottom: 20px;
+}
+#moveTo:after {
+  padding-left: 4px;
+}
+
+#moveLeft,
+#moveRight,
+#moveTo {
+ background-color: 	#2F4F4F;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px -3px;
+  cursor: pointer;
+
+}
+#moveLeft:hover,
+#moveRight:hover, 
+#moveTo:hover {
+  color: #28283b;
+  font-weight: bold;
+}
+
+h1{
+	color:white;
+	font-size:50px;
+	text-align: center;
+}
+
+.btn{
+  background-color: #2F4F4F;
+  color: white;
+  font-size: 35px;
+
+}
+
+
+.btn:hover{
+  color: #28283b;
+  font-weight: bold;
+
+}
