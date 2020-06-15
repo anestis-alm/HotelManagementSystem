@@ -1,0 +1,37 @@
+html, body {min-height: 100%;}
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  Comic Sans MS;
+  background: url(../header_images/hewing.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1{
+	text-align:center;
+	color:white;
+}
+
+
+.table-form{
+  width: 60%;
+  padding: 40px 30px;
+  background: #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 300px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

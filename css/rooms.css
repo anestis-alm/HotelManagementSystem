@@ -1,0 +1,154 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+html, body {min-height: 100%;}
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  Comic Sans MS;
+  height: 100%;
+  
+}
+.dot {
+  height: 18px;
+  width: 18px;
+  background-color:rgba(0,0,0,0.3);
+  border-radius: 50%;
+  margin-top:40px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+}
+
+#curr{
+	background-color:#898F1E; 
+}
+
+input[type="checkbox"]{
+	background: #ddd;
+	border-radius: 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.column1{
+	font-weight: bold;
+	color: #269326;
+	font-size: 20px;
+}
+
+.carous{
+	width:400px;
+}
+
+.offers{
+	position:relative;
+	left:450px;
+}
+
+#tab{
+	width:55%;
+}
+.offers h3{
+	color: #269326;	
+}
+
+.offers h4{
+	color:#595959;
+	font-weight: bold;
+}
+
+
+.offers h5{
+	border-radius: 5px;
+	border: 0px solid #003300;
+    background: #8FABB1;
+	color: white;
+    padding: 5px; 
+	text-align:right;	
+	display:inline;
+}
+
+.column2{
+	color:#717171;
+	font-weight: bold;
+	padding-left: 40px;
+	border-style: solid;
+    border-width: 1px;
+	border-color:#B6B6B6;
+	line-height: 60px;
+	word-spacing: 5px;
+}
+
+
+.offers button{
+	background-color: #898F1E; 
+    border: none;
+    color: white;
+	padding: 13px 17px;
+    text-align: center;
+    text-decoration: none;	
+	width:120px;
+    font-size: 100%;
+	cursor: pointer;
+	
+}
+
+.offers button:hover{
+	background-color: #556B2F;
+    
+}
+
+#best{
+	text-align:center;	
+	width: 130px;
+	background: #5B91CD;
+}
+
+#canc{
+	text-align:center;	
+	background: #99C17C;
+	width: 135px;
+}
+
+@media only screen and (max-width: 600px) {
+.dot {
+  left: 40%;
+}
+
+
+
+	.carous{
+	width:150px;
+}
+
+.up {
+	color: rgba(0, 0, 0, 0.2);	
+	font-family:  sans-serif;
+	font-size: 10px;
+	background-color: #898F1E;
+	width:100%;
+	border: 2px solid #898F1E;
+    border-radius: 6px;
+	line-height: 50px;
+	padding-left: 0px;
+}
+.column2{
+	color:#717171;
+	font-weight: bold;
+	padding-left: 2px;
+	border-style: solid;
+    border-width: 1px;
+	border-color:#B6B6B6;
+	line-height: 40px;
+	word-spacing: 0px;
+	font-size: 8px;
+	}
+	
+.offers{
+	position:relative;
+	left:0px;
+}
+
+#tab{
+	width:100%;
+}
+
+}

@@ -1,0 +1,80 @@
+html, body {min-height: 100%;}
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../header_images/hewing.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.signup-form{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color:rgba(25, 25, 25, .8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+.signup-form h1{
+  float: left;
+   border-bottom: 6px solid #4caf50;
+  margin-top: 50px;
+  font-family:Comic Sans MS;
+  color: #fff;
+  font-size: 40px;
+}
+.signup-form input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family:  Comic Sans MS;
+}
+.txtb{
+  margin: 20px 0;
+  background: rgba(255,255,255,.6);
+  border-radius: 6px;
+}
+.signup-btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-style: italic;
+   font-size: 100%
+}
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+.signup-form a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Comic Sans MS;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+  font-weight: bold;
+}
+.signup-form a:hover{
+  background: rgba(0,0,0,.3);
+}
+
+input[type=text],[type=email],[type=password], select {
+   font-style: italic;
+   font-size: 100%
+}
+
