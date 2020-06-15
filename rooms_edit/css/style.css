@@ -1,0 +1,29 @@
+	   #data-table_filter{
+        float:right; 	  
+	 }
+	 
+	  #data-table_paginate{
+		float:right;
+	  }
+	  
+	  #data-table .fa {
+			color: red;
+		}
+	  
+.add{
+		float:right;	
+	}
+
+	
+.btn {
+		background:#337AB7;
+		border: 2px solid #337AB7;
+		color: white;
+		}
+	 
+.btn:hover {
+		background:	#337AB9;
+		border: 2px solid 	#337AB9;
+		color: white;
+		}
+	
